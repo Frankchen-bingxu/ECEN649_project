@@ -6,7 +6,7 @@ This code is modified from (https://github.com/sunsided/viola-jones-adaboost/blo
 ### The algorithm contains four stages,
 
 a.	Haar Feature Selection
-As stated in the paper, we have five type rectangular features. The type with two rectangles has horizontal and vertical ones, the type with three rectangles also has horizontal and vertical ones, and the type with four rectangles has one. These five types’ features can represent a human’s upright face. With 24 x 24 pixels, we can have 162336 features and with 19 x 19 pixels image, we can have 63960 features in total.
+As stated in the paper, we have five type rectangular features. The type with two rectangles has horizontal and vertical ones, the type with three rectangles also has horizontal and vertical ones, and the type with four rectangles has one. These five types’ features can represent a human’s upright face. With 24 x 24 pixels.
 
 b.	Creating an Integral Image
 To get each feature value efficiently, after load the images and convert them to array, change them into integral image. So each rectangle of any size at any position can be calculated by four addition and subtraction operations. 

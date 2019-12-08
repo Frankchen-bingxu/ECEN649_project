@@ -29,7 +29,6 @@ sklearn
 warnings  
 
 #### How to use
-
-  run violajones.py to finish the algorithm(you can change the round by yourself)  
-  run plot.py to construct the feature on the test face
-  run sys_change.py to see the change along the round increasing
+    run violajones.py to finish the algorithm(you can change the round by yourself)    
+    run plot.py to construct the feature on the test face  
+    run sys_change.py to see the change along the round increasing

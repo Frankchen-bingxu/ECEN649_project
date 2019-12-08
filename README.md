@@ -21,3 +21,15 @@ In the first stage, use only two features. In the second stage, train those whic
 
 glob  
 os  
+matplotlib  
+seaborn  
+PIL  
+joblib  
+sklearn
+warnings  
+
+#### How to use
+
+  run violajones.py to finish the algorithm(you can change the round by yourself)  
+  run plot.py to construct the feature on the test face
+  run sys_change.py to see the change along the round increasing

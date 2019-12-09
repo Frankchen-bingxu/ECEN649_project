@@ -19,16 +19,16 @@ In the first stage, use only two features. In the second stage, train those whic
 
 #### The package to import
 
-glob  
-os  
-matplotlib  
-seaborn  
-PIL  
-joblib  
-sklearn
-warnings  
+glob  for deal with the path of the file and data . 
+os  for input the data . 
+matplotlib  for plot the picture of the feature and line of system change . 
+seaborn  for plot the hot pot picture about the prediction rate and false positive,false negative rate . 
+PIL  for deal with the image, convert the picture to the array . 
+joblib  for using parallel compute in the code to increase the speed of the code . 
+sklearn  for using some packeage about machine learning to deal with the algorithm .    
+warnings for ignoring some warnings when running the project(because i don't write some exception constructure) . 
 
 #### How to use
-    run violajones.py to finish the algorithm(you can change the round by yourself)    
+    run violajones.py to finish the algorithm(you can change the round by yourself)(PS. I use FUll PATH of the data, if can't run, please replace it with relative path)    
     run plot.py to construct the feature on the test face  
     run sys_change.py to see the change along the round increasing
